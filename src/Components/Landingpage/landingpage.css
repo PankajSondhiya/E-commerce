@@ -1,0 +1,120 @@
+.slider {
+  margin-top: 76px;
+}
+.corousel_img {
+  height: auto;
+  width: 100vw;
+}
+.images {
+  height: 100%;
+  width: 100%;
+}
+
+.categorieslist {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100vw;
+  position: sticky;
+  top: 71px;
+  z-index: 100;
+  background-color: rgb(165, 158, 158);
+}
+
+.btn-btn {
+  border-radius: 10px 10px;
+}
+.productlist_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px;
+  color: lightgreen;
+  font-size: 40px;
+  font-weight: 30px;
+  height: auto;
+  width: 100vw;
+}
+
+.card {
+  height: 400px;
+  width: 300px;
+  margin: 30px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.card:hover {
+  box-shadow: 0px 0px 10px 5px rgb(159, 155, 155);
+}
+.product_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  background-color: grey;
+  height: 75%;
+  width: 100%;
+  overflow: hidden;
+}
+.product_price {
+  margin-top: 5px;
+}
+.product_list {
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  width: 100vw;
+  background-color: lightgreen;
+}
+.footer_title {
+  height: 100%;
+  width: 50%;
+  color: black;
+  font-size: 25px;
+  font-weight: 450;
+}
+.slogan {
+  color: rgb(123, 123, 123);
+  font-size: 50px;
+  font-weight: 450;
+  text-align: justify;
+}
+.product_detail_sidebar {
+  position: fixed;
+  top: 0;
+  right: -300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 300px;
+  background-color: white;
+  transition: transform 0.5s ease-in;
+  z-index: 1500;
+}
+.product_detail_sidebar.visible {
+  transform: translatex(-300px);
+}
+.product_detail_wrapper {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 70%;
+  border: 2px solidgrey;
+  text-align: justify;
+}
+.productimage {
+  margin: 9px 0px;
+  height: 200px;
+  width: 100%;
+}
+.product_description {
+  height: 400px;
+  overflow-y: auto;
+  text-align: justify;
+}
